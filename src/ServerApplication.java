@@ -69,6 +69,9 @@ public class ServerApplication {
                     case "DISPLAY_SCHEDULE":
                         handleDisplaySchedule(parts, writer);
                         break;
+                    case "DISPLAY_MODULE_SCHEDULE":
+                        handleDisplayModuleSchedule(parts, writer);
+                        break;
                     case "STOP":
                         writer.println(TERMINATE_KEYWORD);
                         clientSocket.close();
