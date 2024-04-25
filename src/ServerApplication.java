@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class ServerApplication {
     private static final int PORT = 1249;
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/class_scheduler3";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/class_scheduler";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "";
     private static final String TERMINATE_KEYWORD = "TERMINATE";
